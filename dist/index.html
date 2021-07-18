@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./app.js"></script>
+</head>
+<body class="flex">
+    <!-- Welcome pop-up screen -->
+    <div id="welcomeScreen" class="starterWindow flex">
+        <h1 class="title-spans"><span class="win">Rock,</span> Paper, <span class="lose">Scissors</span></h1>
+        <h3>Press "Start" to play</h3>
+        <button id="buttonStart" class="btn">Start</button>
+    </div>
+
+    <!-- Computer's board side -->
+    <div class="computerSide flex">
+        <div class="computerScoreBoard">
+            <h3>Computer Score:</h3>
+            <h3 id="computerScore">0</h3>
+        </div>
+        <div class="computerCard flex">
+            <img id="robot" src="./img/robot.png" alt="">
+            <div id="robotSays" class="remove">
+                <img id="speechBox" src="./img/bubble.png" alt="">
+                <img class="clearBox robotChoice remove" id="robotRock" src="./img/rock.png" alt="">
+                <img class="clearBox robotChoice remove" id="robotPaper" src="./img/paper.png" alt="">
+                <img class="clearBox robotScissors remove" id="robotScissors" src="./img/scissors.png" alt="">
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Results screen -->
+    <div class="display flex">
+        <h2 id="resultScreen">RESULTS</h2>
+        <div id="countdown">
+            <h2 class="remove" id="three">3</h2>
+            <h2 class="remove" id="two">2</h2>
+            <h2 class="remove" id="one">1</h2>
+        </div>
+    </div>
+    
+
+    <!-- Player's board side -->
+    <div class="humanSide flex">
+        <div class="playerScoreBoard">
+            <h3>Your Score:</h3>
+            <h3 id="playerScore">0</h3>
+        </div>
+        <div class="img-btn flex">
+            <img id="rock" src="./img/rock.png" alt="">
+        </div>
+        <div class="img-btn flex">
+            <img id="paper" src="./img/paper.png" alt="">
+        </div>
+        <div class="img-btn flex">
+            <img id="scissors" src="./img/scissors.png" alt="">
+        </div>
+    </div>
+</body>
+</html>

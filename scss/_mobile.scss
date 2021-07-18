@@ -1,0 +1,93 @@
+@media screen and (max-width: 1024px) {
+    #rock,
+    #scissors {
+        width: 150px;
+        height: auto;
+    }
+
+    #paper {
+        width: 110px;
+        height: auto;
+    }
+
+    #robot {
+        width: 150px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #resultScreen {
+        font-size: 3rem;
+    }
+
+    .humanSide {
+        flex-wrap: wrap;
+    }
+
+    #rock,
+    #scissors {
+        width: 150px;
+        height: auto;
+    }
+
+    #paper {
+        width: 110px;
+        height: auto;
+    }
+
+    #robot {
+        width: 150px;
+        height: auto;
+    }
+
+    #speechBox {
+        width: 130px;
+    }
+    
+    .robotChoice {
+        height: 40px;
+        position: absolute;
+        left: 25%;
+        top: 18%;
+    }
+    
+    #robotPaper {
+        left: 35%;
+    }
+    
+    .robotScissors {
+        height: 90px;
+        position: absolute;
+        left: 20%;
+        top: 0;
+    }
+
+    #robotSays {
+        position: absolute;
+        left: 70%;
+        bottom: 40%;
+    }
+
+    .computerScoreBoard {
+        width: 100px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .playerScoreBoard {
+        width: 100px;
+    }
+
+    .starterWindow {
+        height: 100%;
+    }
+
+    .title-spans {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
