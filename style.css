@@ -1,18 +1,14 @@
 /* Global styles */
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
   font-family: 'Amatic SC', cursive;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   min-height: 100vh;
   background: url("../img/table.jpeg") center no-repeat;
   background-size: cover;
@@ -21,8 +17,7 @@ body {
 
 img {
   height: 100%;
-  -webkit-filter: drop-shadow(0px 0px 3px black);
-          filter: drop-shadow(0px 0px 3px black);
+  filter: drop-shadow(0px 0px 3px black);
 }
 
 h1 {
@@ -40,22 +35,14 @@ h3 {
 }
 
 .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Computer side styles */
 .computerSide {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
   width: 100%;
   position: relative;
 }
@@ -75,8 +62,7 @@ h3 {
 }
 
 .computerCard #robot {
-  -webkit-filter: drop-shadow(0px 0px 10px red);
-          filter: drop-shadow(0px 0px 10px red);
+  filter: drop-shadow(0px 0px 10px red);
 }
 
 #robotSays {
@@ -109,9 +95,7 @@ h3 {
 
 /* Player side styles */
 .humanSide {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
   width: 100%;
   position: relative;
 }
@@ -128,16 +112,13 @@ h3 {
   height: 200px;
   width: 200px;
   margin: 0 50px;
-  -webkit-transition: all 100ms ease-out;
   transition: all 100ms ease-out;
   cursor: pointer;
-  -webkit-filter: drop-shadow(0px 0px 10px #549459);
-          filter: drop-shadow(0px 0px 10px #549459);
+  filter: drop-shadow(0px 0px 10px #549459);
 }
 
 .humanSide .img-btn:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 #rock {
@@ -160,8 +141,6 @@ h3 {
 #countdown {
   width: 100%;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: absolute;
 }
@@ -191,10 +170,7 @@ h3 {
   left: 0;
   top: 0;
   z-index: 100;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .btn {
@@ -218,8 +194,7 @@ h3 {
 }
 
 .btn:active {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .remove {
@@ -251,8 +226,7 @@ h3 {
     font-size: 3rem;
   }
   .humanSide {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   #rock,
   #scissors {
@@ -303,13 +277,8 @@ h3 {
     height: 100%;
   }
   .title-spans {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     text-align: center;
   }
 }
