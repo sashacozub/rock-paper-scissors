@@ -1,4 +1,4 @@
-# Population and photos of cities of Norway #
+# Simple "Rock, Paper, Scissors" game #
 ![Project preview](https://i.imgur.com/9WgKDjx.jpg)
 
 ---
