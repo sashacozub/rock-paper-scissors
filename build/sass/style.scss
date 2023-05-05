@@ -2,43 +2,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Amatic SC', cursive;
-    flex-direction: column;
-    min-height: 100vh;
-    background: url('../img/table.jpeg') center no-repeat;
-    background-size: cover;
-    position: relative;
+  font-family: 'Amatic SC', cursive;
+  flex-direction: column;
+  min-height: 100vh;
+  background: url('./img/table.jpeg') center no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 img {
-    height: 100%;
-    filter: drop-shadow(0px 0px 3px black);
+  height: 100%;
+  filter: drop-shadow(0px 0px 3px black);
 }
 
 h1 {
-    color: white;
-    font-size: 100px;
+  color: white;
+  font-size: 100px;
 }
 
 h2 {
-    font-size: 80px;
+  font-size: 80px;
 }
 
 h3 {
-    font-size: 35px;
-    color: white;
+  font-size: 35px;
+  color: white;
 }
 
 .flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @import 'computer';
